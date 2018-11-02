@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>OK | Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header_block">
+      <div class="header">
+        <img id="logo" src="udacity_mark.png" alt="Udacity Logo"/>
+        <div class="name">
+          <!-- <p> renders a better looking font versus <h> tags -->
+          <p id="name">Olga Kitkaeva</p>
+          <p id="profession">Front-End Developer</p>
+        </div>
+      </div>
+    </header>
+    <hr>
+    <main class="content">
+      <figure class="main_image">
+        <img src="IMG_1242.jpg" alt="Macbook">
+        <figcaption></figcaption>
+      </figure>
+      <div class="featured"><h2>Featured Work</h2></div>
+      <div class="container">
+        <div class="hexa">
+          <div class="hex1">
+            <div class="hex2">
+              <div class="projects" id="picture__1"><a href="https://codepen.io/okitkaeva/full/yKqjRX/" target="_blank"><img src="pixel.jpeg" alt="Pixel Maker Project" width="200" height="196"/></a><h1 class="text">Pixel Art Maker</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="hexa">
+          <div class="hex1">
+            <div class="hex2">
+              <div class="projects" id="picture__2"><a href="https://github.com/olgakit/memory_game_project" target="_blank"><img src="memory_game.jpeg" alt="Memory Game" width="200" height="196"/></a><h1 class="text">Memory Game</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="hexa">
+          <div class="hex1">
+            <div class="hex2">
+              <div class="projects" id="picture__3"><a href="https://olgakit.github.io/react_github_pgs/" target="_blank"><img src="map1.png" alt="Google Map" width="200" height="196"/></a><h1 class="text">Neigborhood Map</h1></div>
+            </div>
+          </div>
+        </div>
+        <span class="stretch"></span>
+      </div>
+    </main>
+    <script>
+      var scrollEventHandler = function() {
+        window.scroll(0, window.pageYOffset)
+      }
+      window.addEventListener("scroll", scrollEventHandler, false);
+  </script>
+  </body>
+</html>

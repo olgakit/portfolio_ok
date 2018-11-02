@@ -1,0 +1,184 @@
+/** GLOBAL SETUP **/
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header,
+html {
+  font-family: 'Raleway', sans-serif;
+  color: #2d3c49;
+  font-kerning: auto;
+}
+
+.header_block {
+  width: 100%;
+  max-height: 160px;
+}
+
+/* HEADER */
+
+.header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  float: right;
+  margin-top: -7em;
+}
+
+#name {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0em;
+  margin-top: 1em;
+  text-align: right;
+}
+
+#profession {
+  font-family: 'Petit Formal Script', cursive;
+  text-transform: lowercase;
+  font-size: 1.2em;
+  margin-top: 0;
+  text-align: right;
+}
+
+#logo {
+  width: 77px;
+  margin-right: 0em;
+  display: flex;
+}
+
+/* BREAKPOINT */
+
+hr {
+  background: #7d97ad;
+  width: 100%;
+  height: 1.5px;
+}
+
+/* MAIN IMAGE */
+
+.main_image {
+  vertical-align: middle;
+  max-width: 500px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  margin-top: 2em;
+  flex-direction: column;
+}
+
+.main_image img {
+  width: 100%;
+  height: auto;
+  -webkit-filter: opacity(85%);
+}
+
+/* PROJECTS */
+
+.featured {
+  color: #7d97ad;
+  font-size: 1.5em;
+  letter-spacing: 0.3em;
+  margin-top: 2em;
+}
+
+.projects {
+  text-transform: lowercase;
+  font-size: 0.5rem;
+  letter-spacing: 0.3em;
+  color: #2d3c49;
+  height: 200px;
+  max-width: 270px;
+}
+
+.projects img {
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+  -webkit-filter: opacity(60%);
+}
+
+.projects img:hover {
+  -webkit-filter: opacity(100%);
+}
+
+.container {
+  width: auto;
+  height: 250px;
+  margin-right: auto;
+}
+
+#picture__1 {
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+}
+
+#picture__2 {
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+}
+
+#picture__3 {
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+}
+
+.text {
+  position: fixed;
+  padding-top: 1em;
+}
+
+.stretch {
+  width: auto;
+  display: inline;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hexa, .hexa div {
+  float: left;
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+.hexa {
+  width: 250px;
+  height: 177px;
+}
+.hexa div {
+  width: 100%;
+  height: 100%;
+}
+.hexa {
+  transform: rotate(120deg);
+}
+.hex1 {
+  transform: rotate(-60deg);
+}
+.hex2 {
+  transform: rotate(-60deg);
+}
