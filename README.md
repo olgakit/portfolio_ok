@@ -1,6 +1,7 @@
 ## OK | Portfolio
 
-Project 1 Portfolio created by Olga Kitkaeva as part of the Udacity Front-End Developer Nanodegree.
+Project 1 Portfolio created by Olga Kitkaeva as part of the Udacity Front-End Developer Nanodegree:
+https://olgakit.github.io/portfolio_ok/
 
 ## Content Obtained from Other Sources
 
