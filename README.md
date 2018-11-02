@@ -5,9 +5,7 @@ https://olgakit.github.io/portfolio_ok/
 
 ## Content Obtained from Other Sources
 
-1. "udacity_mark.png" is an official Udacity logo downloaded from the Udacity website.
-
-2. The following scroll event listener created by Dylan Cope as found at stackoverflow.com:
+1. The following scroll event listener created by Dylan Cope as found at stackoverflow.com:
 
 ` var scrollEventHandler = function() {
   window.scroll(0, window.pageYOffset)
